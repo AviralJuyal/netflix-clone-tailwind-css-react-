@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../logo.png';
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { ImSearch } from 'react-icons/im';
 
 export const Navbar = () => {
@@ -10,9 +10,9 @@ export const Navbar = () => {
         <img src={logo} alt="" className=' h-20'/>
         <ul className='flex w-full mx-6 '>
                 <NavLink className=' m-4' to="/home">Movies</NavLink>
-               <NavLink className=' m-4' to="/topRated">Top rated</NavLink>
-                <NavLink className=' m-4' to="/recently">Recently Added</NavLink>
-                <NavLink className=' m-4' to="/myList">My List</NavLink>
+               <NavLink className=' m-4' to="/home">Top rated</NavLink>
+                <NavLink className=' m-4' to="/home">Recently Added</NavLink>
+                <NavLink className=' m-4' to="/home">My List</NavLink>
    
             
              {/* <li > */}
