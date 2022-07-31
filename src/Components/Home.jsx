@@ -13,7 +13,7 @@ const Row= ({title , arr = [{img:"https://www.themoviedb.org/t/p/w220_and_h330_f
     // return (
      <div className='p-4 bg-black text-white'>
         <h2 className=" text-2xl font-bold">{title}</h2>
-        <div className='flex overflow-x-auto'>
+        <div className='flex no-scrollbar  overflow-x-auto'>
 
         {arr.map((item , i)=>(
 
